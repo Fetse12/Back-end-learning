@@ -10,5 +10,5 @@ app.get(`/`,(req, res)=>{
     res.send("<h1>hello js <h1>")
 })
 app.get(`/hello`,(req, res)=>{
-    res.send("<h1>Get the fuck out of here <h1>")
+    res.send("<h1>dont open this page its a warnning <h1>")
 })
