@@ -9,6 +9,10 @@ app.listen(port, () => {
 app.get(`/`,(req, res)=>{
     res.send("<h1>hello js <h1>")
 })
-app.get(`/hello`,(req, res)=>{
-    res.send("<h1>dont open this page its a warnning <h1>")
+app.get(`/about`,(req, res)=>{
+    res.send("<h1>go a hade and start it  <h1>")
 })
+app.get(`/contact`,(req, res)=>{
+    res.send("<h1>go a hade and start it  <h1>")
+})
+
